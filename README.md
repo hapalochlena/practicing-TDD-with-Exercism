@@ -1,4 +1,4 @@
-# practicing-TDD-with-Exercism
+# Practicing TDD with Exercism
 
 Using exercises from the [Exercism JavaScript track](https://exercism.org/tracks/javascript) to learn and practice test-driven development.
 
