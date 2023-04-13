@@ -10,7 +10,7 @@ export const preparationTimeInMinutes = (numberOfLayers) => {
 
 export const totalTimeInMinutes = (numberOfLayers, actualMinutesInOven) => {
   if (numberOfLayers != 0) {
-    return (numberOfLayers * 2) + actualMinutesInOven;
+    return preparationTimeInMinutes(numberOfLayers) + actualMinutesInOven;
   } else {
     return 0;
   };
